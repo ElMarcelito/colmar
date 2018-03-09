@@ -1,0 +1,48 @@
+site: 1024px (but not really. call it 100%??)
+- WTF is the font?? And the logo typeface?? Why isn't this provided??
+- Need Tablet breakpoint.
+- Need hover states and stuff. 
+- Need colors. 
+
+
+
+Header Section
+- logo
+- nav
+
+Main Promo Section
+- Banner
+- CTA (headline, sub-head, button)
+
+Campus Section
+- Quote (image, headline, quote, attribution)
+- More Info (collection of multiple features: image, headline, detail, link)
+
+Courses Section
+- Collection of multiple courses: image, headline, sub-head, detail
+
+Thesis Section
+- Same structure as Informational Section
+
+Footer
+- Legal
+- Nav
+
+
+Do we recognize the examples of our elders enough? I found #inspiration in the life of my grandfather. Who has given you something to #aspire to, personally or professionally?
+
+
+Abuelito was a devout Catholic throughout his entire life. His faith sustained him through personal tragedies and professional difficulties. It was also a bulwark for him during those final years as his body weakened. For my grandfather, his faith was his motivating principle. 
+
+Businesses need belief systems as well. While not religious in nature, shared values and goals orient diverse teams toward success. 
+
+
+ 
+
+In a professional context, motivating large and diverse teams is achieved through goals. 
+
+Belief systems
+
+
+
+ 
