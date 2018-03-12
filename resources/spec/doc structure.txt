@@ -17,7 +17,7 @@ medium
 bold
 
 tablet @ 768?
-phone @ 480
+phone @ 48
 
 Issues:
 - any way to stop the courses from going 4 on top 2 on bottom row?
