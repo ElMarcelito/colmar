@@ -1,6 +1,6 @@
 html {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -9,6 +9,12 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 4rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.25rem;
 }
 
 .company {
@@ -34,7 +40,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   padding-right: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .desktop {
@@ -90,7 +96,7 @@ nav {
 }
 
 .sub-head {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.25rem;
   display: block;
   line-height: 1.5rem;
@@ -105,8 +111,8 @@ nav {
   text-align: center;
 }
 
-.campus {
-  padding: 2rem 1.5rem;
+.container {
+  padding: 2rem 0.3rem 2rem 1.5rem;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -128,15 +134,17 @@ nav {
 }
 
 .main-feature h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  line-height: 2.25rem;
+  margin-bottom: 0.75rem;
 }
 
-.main-feature p.attribution {
+.main-feature p {
+  padding: 0;
+}
+
+.attribution {
   font-size: 0.75rem;
   margin-top: 2rem;
+  padding: 0;
 }
 
 .features {
@@ -177,7 +185,7 @@ nav {
 
 .information h2 {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5rem;
 }
 
@@ -202,21 +210,19 @@ nav {
 }
 
 .learning h1 {
-  font-weight: 700;
-  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .courses {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .course {
   margin: 1rem;
   padding-bottom: 1.5rem;
-  max-width: 30%;
+  flex-basis: 262px;
   background-color: white;
 }
 
@@ -231,5 +237,100 @@ nav {
 }
 
 .course h2 {
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.thesis {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.main-thesis {
+  width: 60%;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.main-thesis img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.main-thesis video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.main-thesis h2 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.main-thesis p {
+  padding: 0;
+}
+
+.video {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.thesis-features {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.thesis-feature {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.thesis-feature:first-child {
+  background-color: lightgrey;
+}
+
+.thesis-feature img {
+  width: 35%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.thesis-feature h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.thesis-feature p {
+  padding: 0;
+}
+
+footer {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal {
+  font-size: 0.75rem;
+  padding: 0;
+  display: inline-block;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legal li {
+  padding-right: 1rem;
 }
